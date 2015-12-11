@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=X-CrossOver;
+Icon=crossover
+Exec=/opt/cxoffice/bin/crossover %u
+Name=CrossOver
+Comment=Run Windows software with CrossOver Linux

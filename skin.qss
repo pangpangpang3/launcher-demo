@@ -1,0 +1,297 @@
+/*InternetApp Button*/
+QPushButton#InternetApp{
+    border-image:url(:/img/catelogy/internet50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+QPushButton#InternetApp:checked{
+    border-image:url(:/img/catelogy/internet100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#InternetApp:disabled{
+    border-image:url(:/img/catelogy/internet10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+/* GraphicApp */
+QPushButton#GraphicApp{
+    border-image:url(:/img/catelogy/graphics50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#GraphicApp:checked{
+    border-image:url(:/img/catelogy/graphics100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#GraphicApp:disabled{
+    border-image:url(:/img/catelogy/graphics10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+/*MultimediaApp Button*/
+QPushButton#MultimediaApp{
+    border-image:url(:/img/catelogy/video50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#MultimediaApp:checked{
+    border-image:url(:/img/catelogy/video100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#MultimediaApp:disabled{
+    border-image:url(:/img/catelogy/video10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+/* OfficeApp */
+
+QPushButton#OfficeApp{
+    border-image:url(:/img/catelogy/office50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+QPushButton#OfficeApp:checked{
+    border-image:url(:/img/catelogy/office100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#OfficeApp:disabled{
+    border-image:url(:/img/catelogy/office10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+/* DevelopmentApp */
+QPushButton#DevelopmentApp{
+    border-image:url(:/img/catelogy/development50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#DevelopmentApp:checked{
+    border-image:url(:/img/catelogy/development100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#DevelopmentApp:disabled{
+    border-image:url(:/img/catelogy/internet10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+/*SystemApp*/
+QPushButton#SystemApp{
+    border-image:url(:/img/catelogy/system50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#SystemApp:checked{
+    border-image:url(:/img/catelogy/system100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#SystemApp:disabled{
+    border-image:url(:/img/catelogy/system10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#UtilityApp{
+    border-image:url(:/img/category/utilities50.png);
+}
+
+QPushButton#UtilityApp:checked{
+    border-image:url(:/img/category/utilities100.png);
+}
+
+QPushButton#UtilityApp:disabled{
+    border-image:url(:/img/category/utilities10.png);
+}
+
+QPushButton#GamesApp{
+    border-image:url(:/img/category/games50.png);
+}
+
+QPushButton#GamesApp:checked{
+    border-image:url(:/img/category/games100.png);
+}
+
+QPushButton#GamesApp:disabled{
+    border-image:url(:/img/category/games10.png);
+}
+
+QPushButton#ProductivityApp{
+    border-image:url(:/img/catelogy/office50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#ProductivityApp:checked{
+    border-image:url(:/img/catelogy/office100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#ProductivityApp:disabled{
+    border-image:url(:/img/catelogy/office10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+
+/* OthersApp */
+QPushButton#OthersApp{
+    border-image:url(:/img/catelogy/others50.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#OthersApp:checked{
+    border-image:url(:/img/catelogy/others100.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QPushButton#OthersApp:disabled{
+    border-image:url(:/img/catelogy/others10.svg);
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+QTableWidget {
+    background-color: transparent;
+    margin: 0px;
+    /*border: 2px solid rgba(255, 0, 255, 50);
+    border-radius: 4px;*/
+}
+QTableWidget#AssortTableWidget {
+    margin-top: 60px;
+}
+QFrame {
+    background-color: transparent;
+   /* border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 4px;*/
+}
+
+
+/* CatalogIndex */
+QPushButton#CatalogIndex{
+    border-image:url(:/img/catelogy_normal.svg);
+}
+
+QPushButton#CatalogIndex:hover{
+    border-image:url(:/img/catelogy_hover.svg);
+}
+
+QPushButton#CatalogIndex:checked{
+    border-image:url(:/img/catelogy_hover.svg);
+}
+/* Catalogue According Icon */
+/*QPushButton#accordingicon{
+    border-image:url(:/img/catelogy/icon50.svg);
+}
+
+QPushButton#accordingicon:hover{
+    border-image:url(:/img/catelogy/icon50.svg);
+}
+
+QPushButton#accordingicon:checked{
+    border-image:url(:/img/catelogy/icon100.svg);
+}*/
+
+QPushButton#accordingname{
+    border-image:url(:/img/catelogy/name50.svg);
+    border-margins:0px;
+}
+
+QPushButton#accordingname:hover{
+    border-image:url(:/img/catelogy/name50.svg);
+}
+
+QPushButton#accordingname:checked{
+    border-image:url(:/img/catelogy/name100.svg);
+}
+QPushButton#starter {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 50);
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QPushButton {
+    color: white;
+    text-align: left;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+}
+QPushButton:hover{
+    color: lightblue;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+}
+QPushButton:checked {
+    color: blue;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+}
+QFrame#tableItem {
+    color: white;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 50);
+    border-radius: 4px;
+}
+QFrame#tableItem:hover {
+    background-color: rgba(60, 60, 60, 100);
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 100);
+    border-radius: 4px;
+}
+QPushButton#searchIcon {
+    border-image:url(:/img/search.svg);
+}
+QLabel#titleText {
+    color: white;
+}
+QLabel#Line {
+    background-color: qlineargradient(x0:0,y0:0 x1:1,y1:1,
+                stop: 0 #000000, stop: 0.4 #1c1c1c,
+                stop: 0.5 #1c1c1f, stop: 1.0 #5b5b5b);
+    border: 2px solid rgba(255, 255, 255, 10);
+    border-radius: 4px;
+}
+QFrame {
+    background-color: rgba(255, 255, 255, 0);
+}
+QLabel#iconTextLabel {
+    color: white;
+
+}

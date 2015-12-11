@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<node>\n
+  <interface name="com.deepin.filemanager.Backend.FileInfo">\n
+    <method name="GetThemeIcon">\n
+      <arg type="s" direction="in"/>\n
+      <arg type="i" direction="in"/>\n
+      <arg type="s" direction="out"/>\n
+    </method>\n
+    <method name="GetThumbnail">\n
+      <arg type="s" direction="in"/>\n
+      <arg type="i" direction="in"/>\n
+      <arg type="s" direction="out"/>\n
+    </method>\n
+    <method name="IsNativeFile">\n
+      <arg type="s" direction="in"/>\n
+      <arg type="b" direction="out"/>\n
+    </method>\n
+    <method name="QueryInfo">\n
+      <arg type="s" direction="in"/>\n
+      <arg type="s" direction="in"/>\n
+      <arg type="u" direction="in"/>\n
+      <arg type="s" direction="out"/>\n
+    </method>\n
+    <property name="QueryFlagNofollowSymlinks" type="u" access="read"/>\n
+    <property name="QueryFlagNone" type="u" access="read"/>\n
+    <property name="FileTypeRegular" type="u" access="read"/>\n
+    <property name="FileTypeSpecial" type="u" access="read"/>\n
+    <property name="FileTypeUnknown" type="u" access="read"/>\n
+    <property name="FileTypeShortcut" type="u" access="read"/>\n
+    <property name="FileTypeDirectory" type="u" access="read"/>\n
+    <property name="FileTypeMountable" type="u" access="read"/>\n
+    <property name="FileTypeSymbolicLink" type="u" access="read"/>\n
+    <property name="DriveStartStopTypePassword" type="u" access="read"/>\n
+    <property name="DriveStartStopTypeNetwork" type="u" access="read"/>\n
+    <property name="DriveStartStopTypeUnknown" type="u" access="read"/>\n
+    <property name="DriveStartStopTypeShutdown" type="u" access="read"/>\n
+    <property name="DriveStartStopTypeMultidisk" type="u" access="read"/>\n
+    <property name="FilesystemPreviewTypeIfLocal" type="u" access="read"/>\n
+    <property name="FilesystemPreviewTypeNever" type="u" access="read"/>\n
+    <property name="FilesystemPreviewTypeIfAlways" type="u" access="read"/>\n
+    <property name="FileAttributeStandardType" type="s" access="read"/>\n
+    <property name="FileAttributeStandardIsHidden" type="s" access="read"/>\n
+    <property name="FileAttributeStandardIsBackup" type="s" access="read"/>\n
+    <property name="FileAttributeStandardIsSymlink" type="s" access="read"/>\n
+    <property name="FileAttributeStandardIsVirtual" type="s" access="read"/>\n
+    <property name="FileAttributeStandardName" type="s" access="read"/>\n
+    <property name="FileAttributeStandardDisplayName" type="s" access="read"/>\n
+    <property name="FileAttributeStandardEditName" type="s" access="read"/>\n
+    <property name="FileAttributeStandardCopyName" type="s" access="read"/>\n
+    <property name="FileAttributeStandardContentType" type="s" access="read"/>\n
+    <property name="FileAttributeStandardFastContentType" type="s" access="read"/>\n
+    <property name="FileAttributeStandardSize" type="s" access="read"/>\n
+    <property name="FileAttributeStandardAllocatedSize" type="s" access="read"/>\n
+    <property name="FileAttributeStandardSymlinkTarget" type="s" access="read"/>\n
+    <property name="FileAttributeStandardTargetUri" type="s" access="read"/>\n
+    <property name="FileAttributeStandardSortOrder" type="s" access="read"/>\n
+    <property name="FileAttributeEtagValue" type="s" access="read"/>\n
+    <property name="FileAttributeIdFile" type="s" access="read"/>\n
+    <property name="FileAttributeIdFilesystem" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanRead" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanWrite" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanExecute" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanDelete" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanTrash" type="s" access="read"/>\n
+    <property name="FileAttributeAccessCanRename" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanMount" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanUnmount" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanEject" type="s" access="read"/>\n
+    <property name="FileAttributeMountableUnixDevice" type="s" access="read"/>\n
+    <property name="FileAttributeMountableUnixDeviceFile" type="s" access="read"/>\n
+    <property name="FileAttributeMountableHalUdi" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanPoll" type="s" access="read"/>\n
+    <property name="FileAttributeMountableIsMediaCheckAutomatic" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanStart" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanStartDegraded" type="s" access="read"/>\n
+    <property name="FileAttributeMountableCanStop" type="s" access="read"/>\n
+    <property name="FileAttributeMountableStartStopType" type="s" access="read"/>\n
+    <property name="FileAttributeTimeModified" type="s" access="read"/>\n
+    <property name="FileAttributeTimeModifiedUsec" type="s" access="read"/>\n
+    <property name="FileAttributeTimeAccess" type="s" access="read"/>\n
+    <property name="FileAttributeTimeAccessUsec" type="s" access="read"/>\n
+    <property name="FileAttributeTimeChanged" type="s" access="read"/>\n
+    <property name="FileAttributeTimeChangedUsec" type="s" access="read"/>\n
+    <property name="FileAttributeTimeCreated" type="s" access="read"/>\n
+    <property name="FileAttributeTimeCreatedUsec" type="s" access="read"/>\n
+    <property name="FileAttributeUnixDevice" type="s" access="read"/>\n
+    <property name="FileAttributeUnixInode" type="s" access="read"/>\n
+    <property name="FileAttributeUnixMode" type="s" access="read"/>\n
+    <property name="FileAttributeUnixNlink" type="s" access="read"/>\n
+    <property name="FileAttributeUnixUid" type="s" access="read"/>\n
+    <property name="FileAttributeUnixGid" type="s" access="read"/>\n
+    <property name="FileAttributeUnixRdev" type="s" access="read"/>\n
+    <property name="FileAttributeUnixBlockSize" type="s" access="read"/>\n
+    <property name="FileAttributeUnixBlocks" type="s" access="read"/>\n
+    <property name="FileAttributeUnixIsMountpoint" type="s" access="read"/>\n
+    <property name="FileAttributeDosIsArchive" type="s" access="read"/>\n
+    <property name="FileAttributeDosIsSystem" type="s" access="read"/>\n
+    <property name="FileAttributeOwnerUser" type="s" access="read"/>\n
+    <property name="FileAttributeOwnerUserReal" type="s" access="read"/>\n
+    <property name="FileAttributeOwnerGroup" type="s" access="read"/>\n
+    <property name="FileAttributeThumbnailPath" type="s" access="read"/>\n
+    <property name="FileAttributeThumbnailingFailed" type="s" access="read"/>\n
+    <property name="FileAttributeThumbnailIsValid" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemSize" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemFree" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemUsed" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemType" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemReadonly" type="s" access="read"/>\n
+    <property name="FileAttributeGvfsBackend" type="s" access="read"/>\n
+    <property name="FileAttributeSelinuxContext" type="s" access="read"/>\n
+    <property name="FileAttributeTrashItemCount" type="s" access="read"/>\n
+    <property name="FileAttributeTrashDeletionDate" type="s" access="read"/>\n
+    <property name="FileAttributeTrashOrigPath" type="s" access="read"/>\n
+    <property name="FileAttributeFilesystemUsePreview" type="s" access="read"/>\n
+    <property name="FileAttributeStandardDescription" type="s" access="read"/>\n
+  </interface>\n
+</node>
